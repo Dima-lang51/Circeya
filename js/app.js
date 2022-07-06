@@ -26,18 +26,7 @@ $(document).ready(function(){
       nav.style.left = nav_x + "px";
       nav.style.top = nav_y  + "px";
     },
-   /* "Carousel.ready Carousel.change": (fancybox, carousel, slideIndex) =>{
-      const $info = document.createElement("div");
-      $info.innerHTML = `<p>fdklgk;thlygl'jyt</p>`;
-      $info.classList.add("fancybox__slide-text");
 
-      slideIndex =
-        slideIndex === undefined ? carousel.options.initialPage : slideIndex;
-
-      const $slide = fancybox.items[slideIndex];
-      $slide.$thumb.parentNode.appendChild($info);
-
-    },*/
     },
     
     Thumbs: {autoStart: false}

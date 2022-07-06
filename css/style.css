@@ -615,6 +615,11 @@ button.acordion__btn.active:after {
     transform: scale(0.8);
   }
 
+  .fancybox__caption {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .description__text-bottom {
     padding: 0;
 }
