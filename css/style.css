@@ -263,6 +263,15 @@ button.acordion__btn.active:after {
   background-position: center;
 }
 
+.fancybox__slide::before  {
+  margin-top: 5.729vw !important;
+  margin: 0 auto;
+}
+
+.fancybox__slide{
+  padding-top: 0;
+}
+
 .fancybox__container {
   background: #141414;
 }
@@ -277,7 +286,7 @@ button.acordion__btn.active:after {
 
 .fancybox__caption {
   max-width: 1079px;
-  padding-top: 0;
+  padding-top: 25px;
   
 }
 
@@ -419,6 +428,7 @@ button.acordion__btn.active:after {
 @media (max-width: 1700px) {
   .carousel__slide {
     width: 26%;
+    height: 100%;
   }
 }
 
@@ -436,6 +446,12 @@ button.acordion__btn.active:after {
 
   .carousel__viewport::before {
     display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .img_text-right {
+    right: 0;
   }
 }
 
@@ -612,5 +628,9 @@ button.acordion__btn.active:after {
     width: 668px;
     left: -135px;
     top: -230px;
+  }
+
+  .img_text-right {
+    right: 0;
   }
 }
