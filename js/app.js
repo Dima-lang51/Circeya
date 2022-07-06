@@ -5,6 +5,11 @@ $(document).ready(function(){
 
 
   Fancybox.bind('[data-fancybox="gallery"]', {
+    caption: function (fancybox, carousel, slide) {
+      return (
+        `<p>${slide.caption}</p>`
+      );
+    },
     Toolbar: {
       display: [
 

@@ -639,3 +639,10 @@ button.acordion__btn.active:after {
     right: 0;
   }
 }
+
+@media (max-height: 770px) {
+  .fancybox__caption {
+    height: 20vh;
+    overflow-y: scroll
+  }
+}
